@@ -4,7 +4,6 @@ from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message,CallbackQuery
 from core.keyboards.inline import *
 from core.keyboards.reply import *
-from core.settings import cursor, connection   # переменная подключения к базе
 import database
 
 
